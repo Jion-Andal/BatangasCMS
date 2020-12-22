@@ -17,9 +17,12 @@
 				<div class="section-inner">
 
 					<div class="footer-credits">
-
+						
+						<p>Follow us on our social media accounts: <a href="https://www.facebook.com" target="_blank">Facebook</a> - <a href="https://www.twitter.com" target="_blank">Twitter</a> --- </p>
+						
 						<p class="footer-copyright">&copy;
 							<?php
+							
 							echo "Copyright ".date_i18n(
 								/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
 								_x( 'Y', 'copyright date format', 'twentytwenty' )
